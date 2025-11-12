@@ -8,7 +8,7 @@ namespace HelloWorldApp {
             
             // statement printing Hello World! 
             Console.WriteLine("Hello World!"); 
-            
+			Console.WriteLine("Bug is fixed");            
             // To prevent the screen from running and closing quickly 
             Console.ReadKey(); 
         } 
