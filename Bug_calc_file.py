@@ -14,7 +14,7 @@ def power(num1, num2):
     return num1 ** num2
 
 def average(nums):
-    #buggy code - total is not declared
+    total = 0
     for num in nums:
         total += num
     return total / len(nums)
