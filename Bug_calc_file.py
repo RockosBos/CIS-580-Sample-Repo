@@ -18,3 +18,8 @@ def average(nums):
     for num in nums:
         total += num
     return total / len(nums)
+
+def num_range(nums):
+    low = min(nums)
+    high = max(nums)
+    return high - low
