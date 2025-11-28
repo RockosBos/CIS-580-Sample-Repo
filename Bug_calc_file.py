@@ -29,3 +29,5 @@ def num_range(nums):
         low = min(nums)
         high = max(nums)
         return high - low
+
+#TODO add exponent
