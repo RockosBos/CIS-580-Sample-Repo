@@ -20,6 +20,9 @@ def average(nums):
     return total / len(nums)
 
 def num_range(nums):
-    low = min(nums)
-    high = max(nums)
-    return high - low
+    if not nums:
+        return 0
+    else:
+        low = min(nums)
+        high = max(nums)
+        return high - low
